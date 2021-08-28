@@ -5,10 +5,11 @@ import time
 time.sleep(2)
 #im = pyautogui.screenshot(region=(0,0, 300, 400)) 지정 이미지 찍기
 
-consumption_location = pyautogui.locateOnScreen('consumption.png', confidence=0.98)
-ok_location = pyautogui.locateOnScreen('ok.png', confidence=0.98)
+consumption_location = pyautogui.locateOnScreen('consumption.png', confidence=0.98) #소비창
+ok_location = pyautogui.locateOnScreen('ok.png', confidence=0.98) # 확인
 re_location = pyautogui.locateOnScreen('re.png', confidence=0.98) # 한 번 더 하기
-
+ad3_location = pyautogui.locateOnScreen('ad3.png', confidence=0.98) #공3퍼
+ad6_location = pyautogui.locateOnScreen('ad6.png', confidence=0.98) #공6퍼
 consumption_x=0 #소비
 consumption_y=0
 
@@ -17,9 +18,6 @@ mouse_top=100
 
 resize=-1 # 큐브 돌릴 여부 => 레어인 경우(resize==0)에만 돌림
 count=0
-
-
-
 
 pyautogui.click(consumption_location)
 cube_center = pyautogui.locateCenterOnScreen('cube.png', confidence=0.98)
