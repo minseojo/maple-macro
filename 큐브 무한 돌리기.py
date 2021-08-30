@@ -9,7 +9,7 @@ ysize=0
 while 1:
     if sign==0:
         sign=1
-        time.sleep(3)
+        time.sleep(2)
     xsize=300
     ysize=440
     ysize+= randint(1,10)
@@ -23,4 +23,3 @@ while 1:
     if keyboard.is_pressed('q'):
         print("끝")
         break
-
