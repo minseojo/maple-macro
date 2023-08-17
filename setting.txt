@@ -1,0 +1,6 @@
+pip install pyautogui
+pip install keyboard
+python -m pip install opencv-python
+
+pip install imutils opencv-python scikit-image
+ pip install pyqt5 

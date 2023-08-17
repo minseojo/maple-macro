@@ -1,0 +1,1 @@
+pyinstaller -w -F --icon=icon.ico CubeMaster.py --paths "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\cv2"
